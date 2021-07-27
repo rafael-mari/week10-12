@@ -1,4 +1,4 @@
-#include <stdio.h> //I define the library
+#include <stdio.h> //Define the library
 #define array1 10 //Define the number of elements in the array
 int main(void)
 {
