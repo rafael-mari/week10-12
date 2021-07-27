@@ -3,8 +3,8 @@
 
 int main(void)
 {             
-    char input[] = "input.txt"; //the file I create where I write some stuff
-    char output[] = "output.txt"; //the file that the program will create where the change will be made
+    char input[] = "input2.txt"; //the file I create where I write some stuff
+    char output[] = "output2.txt"; //the file that the program will create where the change will be made
     FILE *in_file; //I enter both files
     FILE *out_file;
     int character; //To check each one of the characters in the file
