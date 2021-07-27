@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-const char file1[] = "input.txt"; //the file I create where I write some stuff
+const char file1[] = "input.txt"; //the file I created where I write some stuff
 const char file2[] = "output.txt";//the file that the program will create where the number of characters will be printed
 
 int main(void)
