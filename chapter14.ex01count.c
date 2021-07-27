@@ -7,7 +7,7 @@ const char file2[] = "output.txt";//the file that the program will create where 
 int main()
 {
 	int num = 0;//the integer number starts with 0
-	FILE *in_file; //ingreso del archivo
+	FILE *in_file; //I enter the file
 
 	int character; //To check each one of the characters in the file
 
