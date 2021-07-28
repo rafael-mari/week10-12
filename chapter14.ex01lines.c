@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-const char file1[] = "input.txt"; //the file I created where I write some stuff
+const char file1[] = "input.txt"; //the file I create where I write some stuff
 const char file2[] = "output.txt";//the file that the program will create where the number of characters will be printed
 
 int main(void)
@@ -28,7 +28,7 @@ int main(void)
 	fclose(in_file); //Close the first file
   FILE *out_file;
   out_file = fopen(file2, "wr"); //Open a new file where I will print the same thing as before
-  fprintf(out_file,"The number of lines in %s is %d\n", file1, lines+1); //I print the number of lines of the input file, which is stored in the variable lines but now in the new file named output.txt
+  fprintf(out_file,"The number of lines in %s is %d", file1, lines+1); //I print the number of lines of the input file, which is stored in the variable lines but now in the new file named output.txt
   fclose(out_file); //Close the second file
 	return 0;
 }
