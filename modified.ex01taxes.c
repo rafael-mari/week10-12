@@ -26,10 +26,10 @@ int main(void) {
 
   b=a*1.08; //I do the calculations
 
-  FILE *money;
-  money = fopen("total.txt", "w"); //I open the file divisible.txt
+  FILE *money; //I introduce the pointer to file that will be created
+  money = fopen("total.txt", "w"); //I open the file total.txt
   printf("The amount of money after taxes is $%.2f",b); //I print the new value
-  fprintf(money, "The amount of money after taxes is $%.2f", b); //print the number in the file divisible.txt
+  fprintf(money, "The amount of money after taxes is $%.2f", b); //print the number in the file total.txt
 
   return 0;
 }
