@@ -24,7 +24,7 @@ int main(void)
 			++lines; //add 1 to the count of lines
 	}
 
-	printf("The number of lines in %s is %d\n", file1, lines+1); //I print the number of lines of the input file, which is stored in the variable lines, I add 1 to the variable lines because even when you don't end a text with a line break, it is still a line
+	printf("The number of lines in %s is %d, the file 'output.txt' has been created.\n", file1, lines+1); //I print the number of lines of the input file, which is stored in the variable lines, I add 1 to the variable lines because even when you don't end a text with a line break, it is still a line
 	fclose(in_file); //Close the first file
   FILE *out_file;
   out_file = fopen(file2, "wr"); //Open a new file where I will print the same thing as before
