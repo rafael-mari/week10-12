@@ -39,6 +39,7 @@ int main(void)
 
     fclose(in_file); 
     fclose(out_file); //I close both files
+    printf("The change has been made in the file 'output2.txt'.");
 
     return 0;
 }
